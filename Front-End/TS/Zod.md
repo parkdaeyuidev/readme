@@ -24,6 +24,7 @@ const UserSchema = z.object({
 
 - 런타입 검증 라이브러리( TypeScript의 컴파일단 타입 검사를 보완 )
 - 정의한 스키마로 부터 자동으로 타입을 추론( z.inter<typeof UserSchema> )
+- 의존 라이브러리가 없음
 
 ## 주요기능
 
